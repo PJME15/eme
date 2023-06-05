@@ -476,10 +476,10 @@ body{
 	.navigation{
 		width: 100%;
 		left: -100%;
-		z-index: 1000;
+		z-index: 10001;
 	}
 	.navigation.active{
-		width: 100%;
+		width: 68%;
 		left: 0;
 	}
 	.toggle{
@@ -488,7 +488,7 @@ body{
 	.main.active .toggle{
 		color: #fff;
 		position: fixed;
-		right: 226;
+		right: 215px;
 		left: initial;
 	}
 }
